@@ -5,9 +5,9 @@ title: Timtographer
 email: TimothyTChin@gmail.com
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Portfolio, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+- {name: About, link: '#about'}
+- {name: Portfolio, link: '#portfolio'}
+- {name: Contact, link: '#contact'}
 
 
 #-------------------------------
