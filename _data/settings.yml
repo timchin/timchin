@@ -53,7 +53,7 @@ blurb-btn-name: About me
 
 # About Page
 about-me:
-  My name is Tim and I am a software engineer turned photographer and videographer. I've always had creative interests in photography and videography and recently decided to take the next step in my life toward making my passion into a full time career. I still have a lot to learn and improve, but I'm constantly looking for ways to better myself and my craft. Thanks for visiting and reach out if there's anything you think I might be able to help you with.
+  My name is Tim and I am a software engineer turned photographer and videographer. I've always had creative interests in photography and videography and recently decided to take the next step in my life toward making my passion into a full time career. I still have a lot to learn and improve, but I'm constantly looking for ways to better myself and my craft. Thanks for visiting and please reach out if there's anything you think I might be able to help you with.
 
 # Work Process Section
 work-process:
@@ -95,7 +95,7 @@ experience:
 
 education-title: Education
 education:
-- {name: B.S. Computer Engineering, date: '2013', organization: 'University of California Santa Barbara'}
+- {name: 'B.S. Computer Engineering', date: '2013', organization: 'University of California Santa Barbara'}
 
 #-------------------------------
 # Services Section
@@ -117,7 +117,7 @@ services:
 - {
     name: Web Design,
     icon: ti-panel,
-    description: 'Elegantly crafted website showcases for any kind of businesses or individuals',
+    description: 'Elegantly crafted websites for businesses or individuals of all kinds',
     active: # Add true to select section
   }
 
@@ -212,5 +212,5 @@ portfolio-items:
 #-------------------------------
 # Contact Section
 
-contact-title: Contact Info
+contact-title: Contact
 contact-email: TimothyTChin@gmail.com
