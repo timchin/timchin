@@ -1,17 +1,6 @@
 .hero-area {
-  padding: 500px 0 200px;
   position: relative;
-  @media (min-width: 1000px) {
-    padding: 700px 0 200px;
-  }
-  @media (min-width: 2000px) {
-    padding: 800px 0 200px;
-  }
-  @media (min-width: 2500px) {
-    padding: 900px 0 200px;
-  }
   @include tablet {
-    padding: 250px 0 150px;
     overflow: hidden;
   }
   h1{
@@ -74,4 +63,11 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  top: 0;
+  right: 0;
+}
+
+.social-media-list {
+  position: absolute;
+  top: 20em;
 }

@@ -69,6 +69,11 @@ a:hover {
   padding-top: 80px;
   padding-bottom: 80px;
 
+  &-no-bottom-padding {
+    padding-top: 80px;
+    padding-bottom: 0px;
+  }
+
   &-title {
     margin-bottom: 80px;
     font-family: $tertiary-font;
