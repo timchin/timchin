@@ -4,7 +4,7 @@
       {% if site.data.settings.logo %}
         <img src="{{ site.baseurl }}/assets/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
       {% else %}
-        <h3 class="nav-link">{{ site.data.settings.title }}</h4>
+        <h3 class="nav-link">{{ site.data.settings.title }}</h3>
       {% endif %}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -13,9 +13,9 @@
     </button>
 
     <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+      <ul class="navbar-nav ml-auto" id="navbar-links">
+        <li class="nav-item active top-return" style="display: none">
+          <a class="nav-link" href="#top">Return to Top</a>
         </li>
         {% for link in site.data.settings.menu %}
           <li class="nav-item {{ class }}">
@@ -25,13 +25,4 @@
       </ul>
     </div>
   </nav>
-  <script>
-    $("nav").find("a").click(function(e) {
-      e.preventDefault();
-      var section = $(this).attr("href");
-      $("html, body").animate({
-          scrollTop: $(section).offset().top
-      });
-    });
-  </script>
 </header>
