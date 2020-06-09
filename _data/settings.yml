@@ -34,9 +34,10 @@ hero:
   hero-title:
 
 social:
-- {icon: "ti-facebook", link: "http://fb.me/timtographer"}
-- {icon: "ti-instagram", link: "http://instagram.com/timtographer"}
-- {icon: "ti-twitter", link: "http://twitter.com/chinspecial"}
+  - {icon: "ti-instagram", link: "https://instagram.com/timtographer"}
+  - {icon: "ti-linkedin", link: "https://www.linkedin.com/in/timothytchin/"}
+  - {icon: "ti-facebook", link: "https://fb.me/timtographer"}
+  - {icon: "ti-twitter", link: "https://twitter.com/chinspecial"}
 
 
 #-------------------------------
