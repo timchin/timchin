@@ -83,9 +83,9 @@ skills:
 #-------------------------------
 # Experience Section
 
-experience-title: Experience
+experience-title: Experience And Education
 experience:
-- {name: Software Engineer, icon: 'icon-1.png', date: 'September 2015 - May 2020', organization: 'Storygize'}
+- {name: Software Engineer, icon: 'icon-1.png', date: 'September 2015 - May 2020', organization: 'Storygize', link: 'https://storygize.com'}
 - {name: Founder/Engineer, icon: 'icon-2.png', date: 'September 2014 - September 2015', organization: 'Hapaxity'}
 
 
@@ -104,19 +104,19 @@ services:
 - {
     name: Videography,
     icon: ti-video-camera,
-    description: 'Filming, editing, producing quality video content for establishments and individuals alike',
+    description: 'Film, edit, and produce high quality video content for a wide variety of client types',
     active: # Add true to select section
   }
 - {
     name: Photography,
     icon: ti-camera,
-    description: 'Beautiful and refined photographs of landscapes, food, art, etc.',
+    description: 'Beautiful and refined photographs of natural landscapes, food, art, and anything else interesting',
     active: true # Add true to select section
   }
 - {
     name: Web Design,
     icon: ti-panel,
-    description: 'Elegantly crafted and excellent showcases for any sort of business or entity',
+    description: 'Elegantly crafted website showcases for any kind of businesses or individuals',
     active: # Add true to select section
   }
 
