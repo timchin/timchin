@@ -53,33 +53,7 @@ blurb-btn-name: About me
 
 # About Page
 about-me:
-  My name is Tim and I am a software engineer turned photographer and videographer. I've always had creative interests in photography and videography and recently decided to take the next step in my life toward making my passion into a full time career. I still have a lot to learn and improve, but I'm constantly looking for ways to better myself and my craft. Thanks for visiting and please reach out if there's anything you think I might be able to help you with.
-
-# Work Process Section
-work-process:
-  - title : "Research and Plan"
-    icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Design and Develop"
-    icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    
-  - title : "Deliver"
-    icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-#-------------------------------
-# Skills Section
-
-skills-title: Skills
-skills:
-- {name: Photography, color: '#fdb157', value: '90%'}
-- {name: Editing, color: '#bdecf6', value: '80%'}
-- {name: Videography, color: '#9473e6', value: '70%'}
-- {name: Engineering, color: '#ffbcaa', value: '90%'}
-
+  I am a software engineer turned photographer and videographer. I've always had creative interests in photography and videography and recently decided to take the next step in my life toward making my passion into a full time career. I still have a lot to learn and improve, but I'm constantly looking for ways to better myself and my craft. Thanks for visiting and please reach out if there's anything you think I might be able to help you with.
 
 #-------------------------------
 # Experience Section
@@ -122,92 +96,165 @@ services:
   }
 
 
-
-#-------------------------------
-# Portfolio (Section and Page)
-
-# Portfolio Home Section
-portfolio-home-items:
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-
-
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "LANDSCAPE",
+    type : "landscape"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "FOOD",
+    type : "food"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "NATURE",
+    type : "nature"
   }
 
 portfolio-items:
-  - image : "assets/images/portfolio/item-1.png"
+  - image : "assets/images/photo/landscape/boat_girl.jpg"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/chinese_garden.jpg"
     url: "#"
     portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/dome_bros_crop.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/monolith.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/night_bloom.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/night_wires.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/north_dome.jpg"
     url: "#"
     portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/overlook.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/pdx_sunset.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/steps.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/suburb_sunset.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/sunset2.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/sunset3.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/landscape/trail_sunset.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "landscape"
+     - type: "nature"
+
+  - image : "assets/images/photo/food/afuri_ramen.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/benedict.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/calamari.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/chicken_waffle.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/dough.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/fries.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/gyoza.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/karaage.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/melon_pan.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/oxtail_dip.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/pizza.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
+
+  - image : "assets/images/photo/food/porkbelly_mac.jpg"
+    url: "#"
+    portfolio-type:
+     - type: "food"
 
 
 #client-slider-items:
