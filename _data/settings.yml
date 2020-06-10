@@ -130,98 +130,98 @@ portfolio-label:
 portfolio-items:
   - image : "assets/images/photo/landscape/boat_girl.jpg"
     thumb_image : "assets/images/photo/thumb/boat_girl.jpg"
-    url: "#"
+    id: "boat_girl"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/chinese_garden.jpg"
     thumb_image : "assets/images/photo/thumb/chinese_garden.jpg"
-    url: "#"
+    id: "chinese_garden"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/dome_bros_crop.jpg"
     thumb_image : "assets/images/photo/thumb/dome_bros_crop.jpg"
-    url: "#"
+    id: "dome_bros_crop"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/monolith.jpg"
     thumb_image : "assets/images/photo/thumb/monolith.jpg"
-    url: "#"
+    id: "monolith"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/night_bloom.jpg"
     thumb_image : "assets/images/photo/thumb/night_bloom.jpg"
-    url: "#"
+    id: "night_bloom"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/night_wires.jpg"
     thumb_image : "assets/images/photo/thumb/night_wires.jpg"
-    url: "#"
+    id: "night_wires"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/north_dome.jpg"
     thumb_image : "assets/images/photo/thumb/north_dome.jpg"
-    url: "#"
+    id: "north_dome"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/overlook.jpg"
     thumb_image : "assets/images/photo/thumb/overlook.jpg"
-    url: "#"
+    id: "overlook"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/pdx_sunset.jpg"
     thumb_image : "assets/images/photo/thumb/pdx_sunset.jpg"
-    url: "#"
+    id: "pdx_sunset"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/steps.jpg"
     thumb_image : "assets/images/photo/thumb/steps.jpg"
-    url: "#"
+    id: "steps"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/suburb_sunset.jpg"
     thumb_image : "assets/images/photo/thumb/suburb_sunset.jpg"
-    url: "#"
+    id: "suburb_sunset"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/sunset2.jpg"
     thumb_image : "assets/images/photo/thumb/sunset2.jpg"
-    url: "#"
+    id: "sunset2"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/sunset3.jpg"
     thumb_image : "assets/images/photo/thumb/sunset3.jpg"
-    url: "#"
+    id: "sunset3"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
 
   - image : "assets/images/photo/landscape/trail_sunset.jpg"
     thumb_image : "assets/images/photo/thumb/trail_sunset.jpg"
-    url: "#"
+    id: "trail_sunset"
     portfolio-type:
      - type: "landscape"
      - type: "nature"
@@ -229,220 +229,220 @@ portfolio-items:
 #####  Food Images
   - image : "assets/images/photo/food/afuri_ramen.jpg"
     thumb_image : "assets/images/photo/thumb/afuri_ramen.jpg"
-    url: "#"
+    id: "afuri_ramen"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/benedict.jpg"
     thumb_image : "assets/images/photo/thumb/benedict.jpg"
-    url: "#"
+    id: "benedict"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/calamari.jpg"
     thumb_image : "assets/images/photo/thumb/calamari.jpg"
-    url: "#"
+    id: "calamari"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/chicken_waffle.jpg"
     thumb_image : "assets/images/photo/thumb/chicken_waffle.jpg"
-    url: "#"
+    id: "chicken_waffle"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/dough.jpg"
     thumb_image : "assets/images/photo/thumb/dough.jpg"
-    url: "#"
+    id: "dough"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/fries.jpg"
     thumb_image : "assets/images/photo/thumb/fries.jpg"
-    url: "#"
+    id: "fries"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/gyoza.jpg"
     thumb_image : "assets/images/photo/thumb/gyoza.jpg"
-    url: "#"
+    id: "gyoza"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/karaage.jpg"
     thumb_image : "assets/images/photo/thumb/karaage.jpg"
-    url: "#"
+    id: "karaage"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/melon_pan.jpg"
     thumb_image : "assets/images/photo/thumb/melon_pan.jpg"
-    url: "#"
+    id: "melon_pan"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/oxtail_dip.jpg"
     thumb_image : "assets/images/photo/thumb/oxtail_dip.jpg"
-    url: "#"
+    id: "oxtail_dip"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/pizza.jpg"
     thumb_image : "assets/images/photo/thumb/pizza.jpg"
-    url: "#"
+    id: "pizza"
     portfolio-type:
      - type: "food"
 
   - image : "assets/images/photo/food/porkbelly_mac.jpg"
     thumb_image : "assets/images/photo/thumb/porkbelly_mac.jpg"
-    url: "#"
+    id: "porkbelly_mac"
     portfolio-type:
      - type: "food"
 
 #####  Nature Images
   - image: "assets/images/photo/nature/bee1.jpg"
     thumb_image: "assets/images/photo/thumb/bee1.jpg"
-    url: "#"
+    id: "bee1"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/bee2.jpg"
     thumb_image: "assets/images/photo/thumb/bee2.jpg"
-    url: "#"
+    id: "bee2"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/bonsai.jpg"
     thumb_image: "assets/images/photo/thumb/bonsai.jpg"
-    url: "#"
+    id: "bonsai"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/criss_cross.jpg"
     thumb_image: "assets/images/photo/thumb/criss_cross.jpg"
-    url: "#"
+    id: "criss_cross"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/fallen_tree.jpg"
     thumb_image: "assets/images/photo/thumb/fallen_tree.jpg"
-    url: "#"
+    id: "fallen_tree"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/glow.jpg"
     thumb_image: "assets/images/photo/thumb/glow.jpg"
-    url: "#"
+    id: "glow"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/glow2.jpg"
     thumb_image: "assets/images/photo/thumb/glow2.jpg"
-    url: "#"
+    id: "glow2"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/green_beetle.jpg"
     thumb_image: "assets/images/photo/thumb/green_beetle.jpg"
-    url: "#"
+    id: "green_beetle"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/lotus.jpg"
     thumb_image: "assets/images/photo/thumb/lotus.jpg"
-    url: "#"
+    id: "lotus"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/macro_blue.jpg"
     thumb_image: "assets/images/photo/thumb/macro_blue.jpg"
-    url: "#"
+    id: "macro_blue"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/macro_green.jpg"
     thumb_image: "assets/images/photo/thumb/macro_green.jpg"
-    url: "#"
+    id: "macro_green"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/macro_purple.jpg"
     thumb_image: "assets/images/photo/thumb/macro_purple.jpg"
-    url: "#"
+    id: "macro_purple"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/macro_white.jpg"
     thumb_image: "assets/images/photo/thumb/macro_white.jpg"
-    url: "#"
+    id: "macro_white"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/macro_yellow.jpg"
     thumb_image: "assets/images/photo/thumb/macro_yellow.jpg"
-    url: "#"
+    id: "macro_yellow"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/macro_yellow_close.jpg"
     thumb_image: "assets/images/photo/thumb/macro_yellow_close.jpg"
-    url: "#"
+    id: "macro_yellow_close"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/mantis1.jpg"
     thumb_image: "assets/images/photo/thumb/mantis1.jpg"
-    url: "#"
+    id: "mantis1"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/pink_blossom.jpg"
     thumb_image: "assets/images/photo/thumb/pink_blossom.jpg"
-    url: "#"
+    id: "pink_blossom"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/succulent.jpg"
     thumb_image: "assets/images/photo/thumb/succulent.jpg"
-    url: "#"
+    id: "succulent"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/succulent2.jpg"
     thumb_image: "assets/images/photo/thumb/succulent2.jpg"
-    url: "#"
+    id: "succulent2"
     portfolio-type:
       - type: "nature"
 
   - image: "assets/images/photo/nature/white_bloom.jpg"
     thumb_image: "assets/images/photo/thumb/white_bloom.jpg"
-    url: "#"
+    id: "white_bloom"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/white_blossom.jpg"
     thumb_image: "assets/images/photo/thumb/white_blossom.jpg"
-    url: "#"
+    id: "white_blossom"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/white_blossom2.jpg"
     thumb_image: "assets/images/photo/thumb/white_blossom2.jpg"
-    url: "#"
+    id: "white_blossom2"
     portfolio-type:
       - type: "nature"
       - type: "landscape"
 
   - image: "assets/images/photo/nature/white_blossom_small.jpg"
     thumb_image: "assets/images/photo/thumb/white_blossom_small.jpg"
-    url: "#"
+    id: "white_blossom_small"
     portfolio-type:
       - type: "nature"
 
@@ -450,19 +450,19 @@ portfolio-items:
 
   - image : "assets/images/photo/misc/tokai.jpg"
     thumb_image : "assets/images/photo/thumb/tokai.jpg"
-    url: "#"
+    id: "tokai"
     portfolio-type:
       - type: "misc"
 
   - image : "assets/images/photo/misc/trains.jpg"
     thumb_image : "assets/images/photo/thumb/trains.jpg"
-    url: "#"
+    id: "trains"
     portfolio-type:
       - type: "misc"
 
   - image : "assets/images/photo/misc/yellow_train.jpg"
     thumb_image : "assets/images/photo/thumb/yellow_train.jpg"
-    url: "#"
+    id: "yellow_train"
     portfolio-type:
       - type: "misc"
 
@@ -470,7 +470,7 @@ portfolio-items:
 
   - image : "assets/images/photo/storefront/afuri.jpg"
     thumb_image : "assets/images/photo/thumb/afuri.jpg"
-    url: "#"
+    id: "afuri"
     portfolio-type:
       - type: "misc"
       - type: "food"
@@ -478,14 +478,14 @@ portfolio-items:
 
   - image: "assets/images/photo/storefront/hat_yai.jpg"
     thumb_image: "assets/images/photo/thumb/hat_yai.jpg"
-    url: "#"
+    id: "hat_yai"
     portfolio-type:
       - type: "misc"
       - type: "food"
 
   - image : "assets/images/photo/storefront/hat_yai2.jpg"
     thumb_image: "assets/images/photo/thumb/hat_yai2.jpg"
-    url: "#"
+    id: "hat_yai2"
     portfolio-type:
       - type: "misc"
       - type: "food"
@@ -493,28 +493,28 @@ portfolio-items:
 
   - image: "assets/images/photo/storefront/hat_yai3.jpg"
     thumb_image: "assets/images/photo/thumb/hat_yai3.jpg"
-    url: "#"
+    id: "hat_yai3"
     portfolio-type:
       - type: "misc"
       - type: "food"
 
   - image: "assets/images/photo/storefront/hat_yai4.jpg"
     thumb_image: "assets/images/photo/thumb/hat_yai4.jpg"
-    url: "#"
+    id: "hat_yai4"
     portfolio-type:
       - type: "misc"
       - type: "food"
 
   - image: "assets/images/photo/storefront/hollywood-theater.jpg"
     thumb_image: "assets/images/photo/thumb/hollywood-theater.jpg"
-    url: "#"
+    id: "hollywood-theater"
     portfolio-type:
       - type: "misc"
       - type: "street"
 
   - image: "assets/images/photo/storefront/little_big_burger.jpg"
     thumb_image: "assets/images/photo/thumb/little_big_burger.jpg"
-    url: "#"
+    id: "little_big_burger"
     portfolio-type:
       - type: "misc"
       - type: "food"
@@ -522,7 +522,7 @@ portfolio-items:
 
   - image: "assets/images/photo/storefront/voodoo.jpg"
     thumb_image: "assets/images/photo/thumb/voodoo.jpg"
-    url: "#"
+    id: "voodoo"
     portfolio-type:
       - type: "misc"
       - type: "food"
@@ -532,104 +532,73 @@ portfolio-items:
 
   - image: "assets/images/photo/street/chestnuts.jpg"
     thumb_image: "assets/images/photo/thumb/chestnuts.jpg"
-    url: "#"
+    id: "chestnuts"
     portfolio-type:
       - type: "street"
       - type: "food"
 
   - image: "assets/images/photo/street/chillin.jpg"
     thumb_image: "assets/images/photo/thumb/chillin.jpg"
-    url: "#"
+    id: "chillin"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/emoji.jpg"
     thumb_image: "assets/images/photo/thumb/emoji.jpg"
-    url: "#"
+    id: "emoji"
     portfolio-type:
       - type: "street"
       - type: "misc"
 
   - image: "assets/images/photo/street/lacma_lights.jpg"
     thumb_image: "assets/images/photo/thumb/lacma_lights.jpg"
-    url: "#"
+    id: "lacma_lights"
     portfolio-type:
       - type: "street"
       - type: "misc"
 
   - image: "assets/images/photo/street/pike_place.jpg"
     thumb_image: "assets/images/photo/thumb/pike_place.jpg"
-    url: "#"
+    id: "pike_place"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/piroshky.jpg"
     thumb_image: "assets/images/photo/thumb/piroshky.jpg"
-    url: "#"
+    id: "piroshky"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/red.jpg"
     thumb_image: "assets/images/photo/thumb/red.jpg"
-    url: "#"
+    id: "red"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/steam.jpg"
     thumb_image: "assets/images/photo/thumb/steam.jpg"
-    url: "#"
+    id: "steam"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/sun_drum.jpg"
     thumb_image: "assets/images/photo/thumb/sun_drum.jpg"
-    url: "#"
+    id: "sun_drum"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/tired.jpg"
     thumb_image: "assets/images/photo/thumb/tired.jpg"
-    url: "#"
+    id: "tired"
     portfolio-type:
       - type: "street"
 
   - image: "assets/images/photo/street/tram.jpg"
     thumb_image: "assets/images/photo/thumb/tram.jpg"
-    url: "#"
+    id: "tram"
     portfolio-type:
       - type: "street"
       - type: "misc"
-
-#client-slider-items:
-#  - logo: "assets/images/clients-logo/client-logo-1.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-2.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-3.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-4.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-5.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-1.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-2.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-3.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-4.png"
-#    url: "#"
-#
-#  - logo: "assets/images/clients-logo/client-logo-5.png"
-#    url: "#"
 
 
 #-------------------------------

@@ -131,10 +131,50 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.forEach(element => {
         element.addEventListener("click", function(event) {
             event.preventDefault();
-            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" ><img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" /></div><span>'+this.getAttribute('title')+'</span>';
+            let id = this.getAttribute("id")
+
+            let elArr = [].slice.call(document.body.querySelectorAll(".shuffle-item--visible"))
+            let indexOfMe = elArr.findIndex(e => e.childNodes[1].childNodes[3].childNodes[1].childNodes[1].id === id)
+
+            let arrLength = elArr.length
+            let nextImgNdx = indexOfMe === arrLength - 1 ? 0 : indexOfMe + 1
+            let prevImgNdx = indexOfMe === 0 ? arrLength - 1 : indexOfMe - 1
+
+            let nextImg = elArr[nextImgNdx].childNodes[1].childNodes[3].childNodes[1].childNodes[1]
+            let prevImg = elArr[prevImgNdx].childNodes[1].childNodes[3].childNodes[1].childNodes[1]
+
+            document.getElementById('lightbox').innerHTML = '' +
+                '<a id="close"/>' +
+                '<a id="next">&rsaquo;</a>' +
+                '<a id="prev">&lsaquo;</a>' +
+                '<div class="img" style="background: url(\''+this.getAttribute('href')+'\') center center / contain no-repeat;" title="'+this.getAttribute('title')+'" >' +
+                '<img src="'+this.getAttribute('href')+'" alt="'+this.getAttribute('title')+'" />' +
+                '</div>' +
+                '<span>'+this.getAttribute('title')+'</span>';
             document.getElementById('lightbox').style.display = 'block';
 
-            setGallery(this);
+            if (nextImg && prevImg) {
+                document.getElementById('next').style.display = 'block';
+                document.getElementById('next').addEventListener("click", function() {
+                    nextImg.click();
+                });
+                document.getElementById('prev').style.display = 'block';
+                document.getElementById('prev').addEventListener("click", function() {
+                    prevImg.click();
+                });
+
+                document.onkeydown = function(evt) {
+                    evt = evt || window.event;
+                    switch (evt.keyCode) {
+                        case 37:
+                            prevImg.click();
+                            break;
+                        case 39:
+                            nextImg.click();
+                            break;
+                    }
+                };
+            }
         });
     });
 
