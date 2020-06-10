@@ -12,6 +12,9 @@
     padding: 20px;
     background: $primary-color;
   }
+  @include mobile {
+    padding: 10px
+  }
 }
 
 .navbar{
