@@ -60,8 +60,8 @@ about-me:
 
 experience-title: Experience And Education
 experience:
-- {name: Software Engineer, icon: 'icon-1.png', date: 'September 2015 - May 2020', organization: 'Storygize', link: 'https://storygize.com'}
-- {name: Founder/Engineer, icon: 'icon-2.png', date: 'September 2014 - September 2015', organization: 'Hapaxity'}
+- {name: Software Engineer, icon: 'icon-2.png', date: 'September 2015 - May 2020', organization: 'Storygize', link: 'https://storygize.com'}
+- {name: Founder/Engineer, icon: 'icon-1.png', date: 'September 2014 - September 2015', organization: 'Hapaxity'}
 
 
 #-------------------------------
