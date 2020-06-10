@@ -10,12 +10,12 @@
     <div class="container">
       <div class="row mb-5">
         <div class="col-12">
-          <div class="btn-group btn-group-toggle justify-content-center d-flex" data-toggle="buttons">
-            <label class="btn btn-sm btn-primary active">
+          <div class="btn-group btn-group-toggle justify-content-center d-flex flex-wrap" data-toggle="buttons">
+            <label class="btn btn-sm btn-primary active filter-btn">
               <input type="radio" name="shuffle-filter" value="all" checked="checked" />All
             </label>
             {% for label in site.data.settings.portfolio-label %}
-            <label class="btn btn-sm btn-primary">
+            <label class="btn btn-sm btn-primary filter-btn">
               <input type="radio" name="shuffle-filter" value="{{ label.type }}" />{{ label.title }}
             </label>
             {% endfor %}
