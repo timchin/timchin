@@ -43,15 +43,15 @@
     });
 
 
-    $('.portfolio-slider').slick({
-        lazyLoad: 'ondemand',
-        dots: true,
+    $('.hero-slider').slick({
+        autoplay: true,
+        slidesToScroll: 1,
+        dots: false,
         infinite: true,
-        speed: 300,
-        arrows: true,
-        slidesPerRow: 3,
-        rows: 3,
-        adaptiveHeight: true
+        autoplaySpeed: 5000,
+        speed: 1000,
+        arrows: false,
+        adaptiveHeight: false
     });
 
     // testimonial-slider

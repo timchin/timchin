@@ -33,6 +33,12 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 hero:
   hero-title:
 
+hero-slider-items:
+  - image: "assets/images/photo/landscape/north_dome.jpg"
+  - image: "assets/images/photo/landscape/sunset2.jpg"
+  - image: "assets/images/photo/misc/tokai.jpg"
+  - image: "assets/images/photo/landscape/sunset3.jpg"
+
 social:
   - {icon: "ti-instagram", link: "https://instagram.com/timtographer"}
   - {icon: "ti-linkedin", link: "https://www.linkedin.com/in/timothytchin/"}

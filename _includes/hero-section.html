@@ -1,6 +1,10 @@
 <section class="hero-area" id="top">
   <div class="w-100">
-    <img class="img-fluid w-100" src="{{ site.baseurl }}/assets/images/photo/landscape/north_dome.jpg" alt="bg">
+    <div class="hero-slider align-items-center">
+      {% for slider-item in site.data.settings.hero-slider-items %}
+      <img class="d-unset img-fluid" src="{{ site.baseurl }}/{{ slider-item.image }}"/>
+      {% endfor %}
+    </div>
   </div>
   <ul class="social-media-list mt-3 zindex-1">
     {% for social in site.data.settings.social %}
