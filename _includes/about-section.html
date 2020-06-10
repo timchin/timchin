@@ -1,18 +1,61 @@
 <!-- about -->
-<section class="section-no-bottom-padding" id="about">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">About Me</h2>
-      </div>
+<section class="section pb-250 pt-200" id="about"
+         data-background="{{site.baseurl}}/assets/images/photo/nature/bonsai.jpg">
+    <div class="container mb-100">
+        <div class="row">
+            <div class="col-12 text-center bg-white rounded pt-50">
+                <h2 class="section-title mb-20">About Me</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="bg-white rounded text-center p-5 shadow-down">
+                <div class="col-lg-10 mx-auto text-center">
+                    <p class="font-secondary paragraph-lg text-dark">
+                        {{ site.data.settings.about-me }}
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <p class="font-secondary paragraph-lg text-dark">
-          {{ site.data.settings.about-me }}
-        </p>
-      </div>
+    <div class="container">
+        <div class="col-lg-12 text-center bg-white rounded pt-50">
+            <h2 class="section-title mb0">{{ site.data.settings.experience-title }}</h2>
+        </div>
+        <div class="bg-white rounded">
+            <div class="row justify-content-around pt-50">
+                {% for experience in site.data.settings.experience %}
+                <div class="col-lg-3 col-md-4 text-center mb-80">
+                    <img src="{{ site.baseurl }}/assets/images/experience/{{ experience.icon }}"
+                         alt="{{ site.data.settings.experience-title }} icon">
+                    <p class="mb-0">{{ experience.date }}</p>
+                    <h4>{{ experience.name }}</h4>
+                    <h6 class="text-light">
+                        {% if experience.link %}
+                        <a href="{{experience.link}}"> {{ experience.organization }}</a>
+                        {% else %}
+                        {{ experience.organization }}
+                        {% endif %}
+                    </h6>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row justify-content-around">
+                {% for education in site.data.settings.education %}
+                <div class="col-lg-6 col-md-6 text-center">
+                    <div class="d-flex">
+                        <div class="mr-sm-1 mr-lg-5 mr-3 mb-60">
+                            <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+                        </div>
+                        <div>
+                            <p class="text-dark mb-1">{{ education.date }}</p>
+                            <h4>{{ education.name }}</h4>
+                            <p class="mb-20 text-light">{{ education.organization }}</p>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 <!-- /about -->
