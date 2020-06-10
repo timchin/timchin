@@ -48,7 +48,7 @@
         slidesToScroll: 1,
         dots: false,
         infinite: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 3300,
         speed: 1000,
         arrows: false,
         adaptiveHeight: false,
