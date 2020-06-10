@@ -51,7 +51,9 @@
         autoplaySpeed: 5000,
         speed: 1000,
         arrows: false,
-        adaptiveHeight: false
+        adaptiveHeight: false,
+        fade: true,
+        cssEase: 'linear'
     });
 
     // testimonial-slider
