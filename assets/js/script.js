@@ -42,6 +42,18 @@
         });
     });
 
+
+    $('.portfolio-slider').slick({
+        lazyLoad: 'ondemand',
+        dots: true,
+        infinite: true,
+        speed: 300,
+        arrows: true,
+        slidesPerRow: 3,
+        rows: 3,
+        adaptiveHeight: true
+    });
+
     // testimonial-slider
     $('.testimonial-slider').slick({
         dots: true,
