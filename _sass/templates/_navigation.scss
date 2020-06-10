@@ -15,6 +15,18 @@
   @include mobile {
     padding: 10px
   }
+
+  .navbar-brand {
+    @include mobile {
+      margin-top: 10px;
+    }
+  }
+
+  .nav-title {
+    @include mobile {
+      font-size: 30px;
+    }
+  }
 }
 
 .navbar{
