@@ -166,10 +166,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.onkeydown = function(evt) {
                     evt = evt || window.event;
                     switch (evt.keyCode) {
-                        case 37:
+                        case 27: //esc
+                            document.getElementById('close').click()
+                            break;
+                        case 37: //left
                             prevImg.click();
                             break;
-                        case 39:
+                        case 39: //right
                             nextImg.click();
                             break;
                     }
